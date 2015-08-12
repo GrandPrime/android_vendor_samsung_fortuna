@@ -1,0 +1,425 @@
+PRODUCT_COPY_FILES += \
+	vendor/samsung/fortuna/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+	vendor/samsung/fortuna/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
+	vendor/samsung/fortuna/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+	vendor/samsung/fortuna/proprietary/bin/charon:system/bin/charon \
+	vendor/samsung/fortuna/proprietary/bin/connfwexe:system/bin/connfwexe \
+	vendor/samsung/fortuna/proprietary/bin/cs:system/bin/cs \
+	vendor/samsung/fortuna/proprietary/bin/ddexe:system/bin/ddexe \
+	vendor/samsung/fortuna/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+	vendor/samsung/fortuna/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+	vendor/samsung/fortuna/proprietary/bin/drsd:system/bin/drsd \
+	vendor/samsung/fortuna/proprietary/bin/dun-server:system/bin/dun-server \
+	vendor/samsung/fortuna/proprietary/bin/edmaudit:system/bin/edmaudit \
+	vendor/samsung/fortuna/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+	vendor/samsung/fortuna/proprietary/bin/icd:system/bin/icd \
+	vendor/samsung/fortuna/proprietary/bin/immvibed:system/bin/immvibed \
+	vendor/samsung/fortuna/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+	vendor/samsung/fortuna/proprietary/bin/insthk:system/bin/insthk \
+	vendor/samsung/fortuna/proprietary/bin/irsc_util:system/bin/irsc_util \
+	vendor/samsung/fortuna/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+	vendor/samsung/fortuna/proprietary/bin/lpm:system/bin/lpm \
+	vendor/samsung/fortuna/proprietary/bin/macloader:system/bin/macloader \
+	vendor/samsung/fortuna/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+	vendor/samsung/fortuna/proprietary/bin/mfgloader:system/bin/mfgloader \
+	vendor/samsung/fortuna/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/samsung/fortuna/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+	vendor/samsung/fortuna/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/samsung/fortuna/proprietary/bin/olsrd:system/bin/olsrd \
+	vendor/samsung/fortuna/proprietary/bin/otp_server:system/bin/otp_server \
+	vendor/samsung/fortuna/proprietary/bin/port-bridge:system/bin/port-bridge \
+	vendor/samsung/fortuna/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
+	vendor/samsung/fortuna/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+	vendor/samsung/fortuna/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/samsung/fortuna/proprietary/bin/qseecomd:system/bin/qseecomd \
+	vendor/samsung/fortuna/proprietary/bin/rfs_access:system/bin/rfs_access \
+	vendor/samsung/fortuna/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/samsung/fortuna/proprietary/bin/sapd:system/bin/sapd \
+	vendor/samsung/fortuna/proprietary/bin/scs:system/bin/scs \
+	vendor/samsung/fortuna/proprietary/bin/smdexe:system/bin/smdexe \
+	vendor/samsung/fortuna/proprietary/bin/ss_conn_daemon:system/bin/ss_conn_daemon \
+	vendor/samsung/fortuna/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+	vendor/samsung/fortuna/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+	vendor/samsung/fortuna/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
+	vendor/samsung/fortuna/proprietary/bin/sysprof:system/bin/sysprof \
+	vendor/samsung/fortuna/proprietary/bin/tbaseLoader:system/bin/tbaseLoader \
+	vendor/samsung/fortuna/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+	vendor/samsung/fortuna/proprietary/bin/tlc_server:system/bin/tlc_server \
+	vendor/samsung/fortuna/proprietary/bin/time_daemon:system/bin/time_daemon \
+	vendor/samsung/fortuna/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
+	vendor/samsung/fortuna/proprietary/bin/vm_bms:system/bin/vm_bms \
+	vendor/samsung/fortuna/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+	vendor/samsung/fortuna/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/samsung/fortuna/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	vendor/samsung/fortuna/proprietary/etc/firmware/wlan/prima/grippower.info:system/etc/firmware/wlan/prima/grippower.info \
+	vendor/samsung/fortuna/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+	vendor/samsung/fortuna/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+	vendor/samsung/fortuna/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
+	vendor/samsung/fortuna/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
+	vendor/samsung/fortuna/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+	vendor/samsung/fortuna/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
+	vendor/samsung/fortuna/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
+	vendor/samsung/fortuna/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+	vendor/samsung/fortuna/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
+	vendor/samsung/fortuna/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+	vendor/samsung/fortuna/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
+	vendor/samsung/fortuna/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+	vendor/samsung/fortuna/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
+	vendor/samsung/fortuna/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libDiagService.so:system/vendor/lib/libDiagService.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libP11EncryptorDecryptor.so:system/vendor/lib/libP11EncryptorDecryptor.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libactuator_dw9804_e5_camcorder.so:system/vendor/lib/libactuator_dw9804_e5_camcorder.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libactuator_dw9804_e5_camera.so:system/vendor/lib/libactuator_dw9804_e5_camera.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_common.so:system/vendor/lib/libchromatix_s5k4h5yb_common.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_common_res0.so:system/vendor/lib/libchromatix_s5k4h5yb_common_res0.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_common_res1.so:system/vendor/lib/libchromatix_s5k4h5yb_common_res1.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_default_video.so:system/vendor/lib/libchromatix_s5k4h5yb_default_video.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_liveshot.so:system/vendor/lib/libchromatix_s5k4h5yb_liveshot.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_panorama.so:system/vendor/lib/libchromatix_s5k4h5yb_panorama.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_preview.so:system/vendor/lib/libchromatix_s5k4h5yb_preview.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yb_snapshot.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_video_hd.so:system/vendor/lib/libchromatix_s5k4h5yb_video_hd.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_zsl.so:system/vendor/lib/libchromatix_s5k4h5yb_zsl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k4h5yb_zslshot.so:system/vendor/lib/libchromatix_s5k4h5yb_zslshot.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_common.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so:system/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:system/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_m24128s_eeprom.so:system/vendor/lib/libmmcamera_m24128s_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:system/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_s5k4h5yb.so:system/vendor/lib/libmmcamera_s5k4h5yb.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:system/vendor/lib/libmmcamera_s5k5e3yx.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_silicon_sr544_eeprom.so:system/vendor/lib/libmmcamera_silicon_sr544_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready:system/vendor/lib/qcdrm/playready \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib:system/vendor/lib/qcdrm/playready/lib \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/drm:system/vendor/lib/qcdrm/playready/lib/drm \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm:system/vendor/lib/qcdrm/playready/lib/mediadrm \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+	vendor/samsung/fortuna/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/samsung/fortuna/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+	vendor/samsung/fortuna/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+
+# ./etc:
+# apns-conf.xml
+# audio_platform_info.xml
+# audio_policy.conf
+# firmware
+# init.qcom.post_boot.sh
+# media_codecs.xml
+# media_profiles.xml
+# mixer_paths.xml
+# sec_config
+# wifi
+
+# ./etc/firmware:
+# a225p5_pm4.fw
+# a225_pfp.fw
+# a225_pm4.fw
+# a300_pfp.fw
+# a300_pm4.fw
+# a330_pfp.fw
+# a330_pm4.fw
+# a420_pfp.fw
+# a420_pm4.fw
+# cpp_firmware_v1_1_1.fw
+# cpp_firmware_v1_1_6.fw
+# cpp_firmware_v1_2_0.fw
+# cpp_firmware_v1_4_0.fw
+# ice40.bin
+# leia_pfp_470.fw
+# leia_pm4_470.fw
+# nfc_test.bin
+# Signedrompatch_v20.bin
+# Signedrompatch_v21.bin
+# Signedrompatch_v24.bin
+# Signedrompatch_v30.bin
+# wcd9306
+# wlan
+
+# ./etc/firmware/wcd9306:
+# wcd9306_anc.bin
+# wcd9306_mbhc.bin
+
+# ./etc/wifi:
+# p2p_supplicant.conf
+# p2p_supplicant_overlay.conf
+# wpa_supplicant.conf
+# wpa_supplicant_overlay.conf
+
+	# vendor/samsung/fortuna/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so\
+	# vendor/samsung/fortuna/proprietary/lib/libtpa.so:system/lib/libtpa.so\
+	# vendor/samsung/fortuna/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so\
+	# vendor/samsung/fortuna/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so\
+	# vendor/samsung/fortuna/proprietary/lib/libpkip.so:system/lib/libpkip.so\
+	# vendor/samsung/fortuna/proprietary/lib/libadropbox.so:system/lib/libadropbox.so\
+	# vendor/samsung/fortuna/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so\
+	# vendor/samsung/fortuna/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so\
+	# vendor/samsung/fortuna/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so\
+	# vendor/samsung/fortuna/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so\
+	# vendor/samsung/fortuna/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so\
+	# vendor/samsung/fortuna/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so\
+	# vendor/samsung/fortuna/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so\
+	# vendor/samsung/fortuna/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so\
+	# vendor/samsung/fortuna/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so\
+	# vendor/samsung/fortuna/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so\
+	# vendor/samsung/fortuna/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so\
+	# vendor/samsung/fortuna/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so\
+	# vendor/samsung/fortuna/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so\
+	# vendor/samsung/fortuna/proprietary/lib/libril.so:system/lib/libril.so\
+	# vendor/samsung/fortuna/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+	# vendor/samsung/fortuna/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar\
+	# vendor/samsung/fortuna/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar\
+	# vendor/samsung/fortuna/proprietary/etc/sap.conf:system/etc/sap.conf\
+	# vendor/samsung/fortuna/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml\
+	# vendor/samsung/fortuna/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml\
+	# vendor/samsung/fortuna/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml\
+	# vendor/samsung/fortuna/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf\
+	# vendor/samsung/fortuna/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem\
+	# vendor/samsung/fortuna/proprietary/etc/gps.conf:system/etc/gps.conf\
+	# vendor/samsung/fortuna/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem\
+	# vendor/samsung/fortuna/proprietary/etc/quipc.conf:system/etc/quipc.conf\
+	# vendor/samsung/fortuna/proprietary/etc/izat.conf:system/etc/izat.conf\
+	# vendor/samsung/fortuna/proprietary/etc/firmware:system/etc/firmware\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat:system/etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat:system/etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin\
+	# vendor/samsung/fortuna/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin\
+	# vendor/samsung/fortuna/proprietary/bin/rfs_access:system/bin/rfs_access\
+	# vendor/samsung/fortuna/proprietary/bin/time_daemon:system/bin/time_daemon\
+	# vendor/samsung/fortuna/proprietary/bin/mbm_spy:system/bin/mbm_spy\
+	# vendor/samsung/fortuna/proprietary/bin/tcmd:system/bin/tcmd\
+	# vendor/samsung/fortuna/proprietary/bin/netmgrd:system/bin/netmgrd\
+	# vendor/samsung/fortuna/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin\
+	# vendor/samsung/fortuna/proprietary/bin/rild:system/bin/rild\
+	# vendor/samsung/fortuna/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon\
+	# vendor/samsung/fortuna/proprietary/bin/kpgather:system/bin/kpgather\
+	# vendor/samsung/fortuna/proprietary/bin/btnvtool:system/bin/btnvtool\
+	# vendor/samsung/fortuna/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app\
+	# vendor/samsung/fortuna/proprietary/bin/dropboxd:system/bin/dropboxd\
+	# vendor/samsung/fortuna/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin\
+	# vendor/samsung/fortuna/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent\
+	# vendor/samsung/fortuna/proprietary/bin/qseecomd:system/bin/qseecomd\
+	# vendor/samsung/fortuna/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook\
+	# vendor/samsung/fortuna/proprietary/bin/batt_health:system/bin/batt_health\
+	# vendor/samsung/fortuna/proprietary/bin/irsc_util:system/bin/irsc_util\
+	# vendor/samsung/fortuna/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon\
+	# vendor/samsung/fortuna/proprietary/bin/xtwifi-client:system/bin/xtwifi-client\
+	# vendor/samsung/fortuna/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh\
+	# vendor/samsung/fortuna/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set\
+	# vendor/samsung/fortuna/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches\
+	# vendor/samsung/fortuna/proprietary/bin/rmt_storage:system/bin/rmt_storage\
+	# vendor/samsung/fortuna/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init\
+	# vendor/samsung/fortuna/proprietary/bin/qmuxd:system/bin/qmuxd\
+	# vendor/samsung/fortuna/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump\
+	# vendor/samsung/fortuna/proprietary/bin/adsprpcd:system/bin/adsprpcd\
+	# vendor/samsung/fortuna/proprietary/bin/thermal-engine:system/bin/thermal-engine\
+	# vendor/samsung/fortuna/proprietary/bin/location-mq:system/bin/location-mq\
+	# vendor/samsung/fortuna/proprietary/bin/fmconfig:system/bin/fmconfig\
+	# vendor/samsung/fortuna/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+	# vendor/samsung/fortuna/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	# vendor/samsung/fortuna/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
+	# vendor/samsung/fortuna/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
+	# vendor/samsung/fortuna/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+	# vendor/samsung/fortuna/proprietary/bin/stml0xx:system/bin/stml0xx \
+	# vendor/samsung/fortuna/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+	# vendor/samsung/fortuna/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+	# vendor/samsung/fortuna/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+	# vendor/samsung/fortuna/proprietary/bin/garden_app:system/bin/garden_app \
+	# vendor/samsung/fortuna/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+	# vendor/samsung/fortuna/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	# vendor/samsung/fortuna/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
