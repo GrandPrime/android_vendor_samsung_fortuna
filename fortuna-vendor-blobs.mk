@@ -49,6 +49,13 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/fortuna/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
 	vendor/samsung/fortuna/proprietary/bin/vm_bms:system/bin/vm_bms \
 	vendor/samsung/fortuna/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+	vendor/samsung/fortuna/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+	vendor/samsung/fortuna/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+	vendor/samsung/fortuna/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+	vendor/samsung/fortuna/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+	vendor/samsung/fortuna/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+	vendor/samsung/fortuna/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+	vendor/samsung/fortuna/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
 	vendor/samsung/fortuna/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/samsung/fortuna/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/samsung/fortuna/proprietary/etc/firmware/wlan/prima/grippower.info:system/etc/firmware/wlan/prima/grippower.info \
@@ -64,6 +71,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/fortuna/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
 	vendor/samsung/fortuna/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
 	vendor/samsung/fortuna/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+	vendor/samsung/fortuna/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+	vendor/samsung/fortuna/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+	vendor/samsung/fortuna/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
 	vendor/samsung/fortuna/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
 	vendor/samsung/fortuna/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 	vendor/samsung/fortuna/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
