@@ -92,18 +92,9 @@
         <font weight="400" style="normal">CarroisGothicSC-Regular.ttf</font>
     </family>
 
-    <!-- Added Samsung fonts for TouchWiz style -->
     <family name="sec-roboto-light">
-        <font weight="400" style="normal">SECRobotoLight-Regular.ttf</font>
-        <font weight="700" style="normal">SECRobotoLight-Bold.ttf</font>
-    </family>
-
-    <family name="samsung-sans-light">
-        <font weight="300" style="normal">SamsungSans-Light.ttf</font>
-    </family>
-
-    <family name="samsung-sans-thin">
-        <font weight="100" style="normal">SamsungSans-Thin.ttf</font>
+        <font weight="300" style="normal">SECRobotoLight-Regular.ttf</font>
+        <font weight="500" style="normal">SECRobotoLight-Bold.ttf</font>
     </family>
 
     <family name="samsung-neo-num3L">
@@ -111,33 +102,20 @@
     </family>
 
     <family name="samsung-neo-num3T">
-        <font weight="100" style="normal">SamsungNeoNum-3T.ttf</font>
-    </family>
-
-    <family name="samsung-neo-num3T-cond">
-        <font weight="100" style="normal">SamsungNeoNumCond-3T.ttf</font>
-    </family>
-
-    <family name="samsung-neo-num3R">
-        <font weight="400" style="normal">SamsungNeoNum-3R.ttf</font>
+        <font weight="300" style="normal">SamsungNeoNum-3T.ttf</font>
     </family>
 
     <family name="samsung-sans-num3L">
         <font weight="300" style="normal">SamsungSans-Num3L.ttf</font>
     </family>
 
-    <family name="samsung-sans-num3T">
-        <font weight="100" style="normal">SamsungSans-Num3T.ttf</font>
+    <family name="samsung-sans-num3Lv">
+        <font weight="300" style="normal">SamsungSans-Num3Lv.ttf</font>
     </family>
 
-    <family name="samsung-sans-num4L">
-        <font weight="300" style="normal">SamsungSans-Num4L.ttf</font>
+    <family name="samsung-sans-num4Lv">
+        <font weight="300" style="normal">SamsungSans-Num4Lv.ttf</font>
     </family>
-
-    <family name="samsung-sans-num4T">
-        <font weight="100" style="normal">SamsungSans-Num4T.ttf</font>
-    </family>
-
 
     <!-- fallback fonts -->
     <family variant="elegant">
@@ -156,10 +134,6 @@
         <font weight="400" style="normal">NotoSansHebrew-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansHebrew-Bold.ttf</font>
     </family>
-    <!-- Change NotoSansThai to SamsungThai, becuase font size issue -->
-    <family>
-        <font weight="400" style="normal">SamsungThai.ttf</font>
-    </family>
     <family>
         <font weight="400" style="normal">NotoSansArmenian-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansArmenian-Bold.ttf</font>
@@ -167,6 +141,9 @@
     <family>
         <font weight="400" style="normal">NotoSansGeorgian-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansGeorgian-Bold.ttf</font>
+    </family>
+    <family>
+        <font weight="400" style="normal">SamsungThai.ttf</font>
     </family>
     <family variant="elegant">
         <font weight="400" style="normal">NotoSansDevanagari-Regular.ttf</font>
@@ -176,11 +153,12 @@
         <font weight="400" style="normal">NotoSansDevanagariUI-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansDevanagariUI-Bold.ttf</font>
     </family>
-    <!-- Change NotoSansGujarati to SamsungGujarathi, becuase font reshaping issue -->
     <family>
         <font weight="400" style="normal">SamsungGujarathi.ttf</font>
     </family>
-    <!-- Change NotoSansGurmukhi to SamsungPunjabi, becuase font reshaping issue -->
+    <family>
+        <font weight="400" style="normal">SamsungOriya.ttf</font>
+    </family>
     <family>
         <font weight="400" style="normal">SamsungPunjabi.ttf</font>
     </family>
@@ -253,110 +231,14 @@
         <font weight="700" style="normal">NotoSansMyanmarUI-Bold.ttf</font>
     </family>
     <family>
-        <font weight="400" style="normal">NotoSansThaana-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansThaana-Bold.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansCham-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansCham-Bold.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansBalinese-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansBatak-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansBuginese-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansBuhid-Regular.ttf</font>
+        <font weight="400" style="normal">NotoSansCherokee-Regular.ttf</font>
     </family>
     <family>
         <font weight="400" style="normal">NotoSansCanadianAboriginal-Regular.ttf</font>
     </family>
     <family>
-        <font weight="400" style="normal">NotoSansCherokee-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansCoptic-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansGlagolitic-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansHanunoo-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansJavanese-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansKayahLi-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansLepcha-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansLimbu-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansMeeteiMayek-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansOlChiki-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansRejang-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansSaurashtra-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansSundanese-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansSylotiNagri-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansTagbanwa-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansTaiTham-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansTaiViet-Regular.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NotoSansTifinagh-Regular.ttf</font>
-    </family>
-    <family>
         <font weight="400" style="normal">NotoSansYi-Regular.ttf</font>
     </family>
-    <family>
-        <font weight="400" style="normal">Lohit-Odia.ttf</font>
-    </family>
-    <!-- Changing the priority of samsungkorean font to be higher than the Google Font, becuase font style -->
-    <family>
-        <font weight="400" style="normal">SamsungKorean.ttf</font>
-        <font weight="700" style="normal">SamsungKorean-Bold.ttf</font>
-    </family>
-    <family lang="zh-Hans">
-        <font weight="400" style="normal">NotoSansHans-Regular.otf</font>
-    </family>
-    <family lang="zh-Hant">
-        <font weight="400" style="normal">NotoSansHant-Regular.otf</font>
-    </family>
-    <family lang="ja">
-        <font weight="400" style="normal">NotoSansJP-Regular.otf</font>
-    </family>
-    <!-- Changing the priority of samsungkorean font to be higher than the Google Font, becuase font style -->
-    <family>
-        <font weight="400" style="normal">NotoSansKR-Regular.otf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">NanumGothic.ttf</font>
-    </family>
-    <!-- Changing the priority of NotoColorEmoji font to be higher than the subset Font for some emoticon -->
     <family>
         <font weight="400" style="normal">NotoColorEmoji.ttf</font>
     </family>
@@ -364,21 +246,19 @@
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
     <family>
+        <font weight="400" style="normal">DroidSans_Subset.ttf</font> 
+    </family>
+    <family>
         <font weight="400" style="normal">DroidSansFallback.ttf</font>
     </family>
-    <!-- Added SamsungEmoji font for apps that don't support color emoji fonts like Snote -->
     <family>
-        <font weight="400" style="normal">SamsungEmoji.ttf</font>
+        <font weight="400" style="normal">SamsungKorean.ttf</font>
+        <font weight="700" style="normal">SamsungKorean-Bold.ttf</font>
     </family>
-
+    <family>
+        <font weight="400" style="normal">NanumGothic.ttf</font>
+    </family>
     <family>
         <font weight="400" style="normal">MTLmr3m.ttf</font>
-    </family>
-    <!--
-        Noto Sans Tai Le is intentionally kept last, to make sure it doesn't override
-        the East Asian punctuation for Chinese.
-    -->
-    <family>
-        <font weight="400" style="normal">NotoSansTaiLe-Regular.ttf</font>
     </family>
 </familyset>

@@ -12,7 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
 $(call inherit-product, vendor/samsung/fortuna/fortuna-vendor-blobs.mk)
