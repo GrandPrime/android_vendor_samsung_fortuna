@@ -1,8 +1,8 @@
 PROPRIETARY_PATH := vendor/samsung/fortuna/proprietary
 
 PRODUCT_COPY_FILES += \
-	$(PROPRIETARY_PATH)/bin/adsprpcd:system/bin/adsprpcd \
 	$(PROPRIETARY_PATH)/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+	$(PROPRIETARY_PATH)/bin/adsprpcd:system/bin/adsprpcd \
 	$(PROPRIETARY_PATH)/bin/bridgemgrd:system/bin/bridgemgrd \
 	$(PROPRIETARY_PATH)/bin/btnvtool:system/bin/btnvtool \
 	$(PROPRIETARY_PATH)/bin/connfwexe:system/bin/connfwexe \
@@ -15,22 +15,22 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_PATH)/bin/epmd:system/bin/epmd \
 	$(PROPRIETARY_PATH)/bin/ftmdaemon:system/bin/ftmdaemon \
 	$(PROPRIETARY_PATH)/bin/icd:system/bin/icd \
+	$(PROPRIETARY_PATH)/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	$(PROPRIETARY_PATH)/bin/imsdatadaemon:system/bin/imsdatadaemon \
 	$(PROPRIETARY_PATH)/bin/imsqmidaemon:system/bin/imsqmidaemon \
-	$(PROPRIETARY_PATH)/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	$(PROPRIETARY_PATH)/bin/insthk:system/bin/insthk \
 	$(PROPRIETARY_PATH)/bin/irsc_util:system/bin/irsc_util \
 	$(PROPRIETARY_PATH)/bin/loc_launcher:system/bin/loc_launcher \
 	$(PROPRIETARY_PATH)/bin/lpm:system/bin/lpm \
 	$(PROPRIETARY_PATH)/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
 	$(PROPRIETARY_PATH)/bin/mfgloader:system/bin/mfgloader \
-	$(PROPRIETARY_PATH)/bin/mmi:system/bin/mmi \
 	$(PROPRIETARY_PATH)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(PROPRIETARY_PATH)/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
 	$(PROPRIETARY_PATH)/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
 	$(PROPRIETARY_PATH)/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
 	$(PROPRIETARY_PATH)/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
 	$(PROPRIETARY_PATH)/bin/mm-vidc-omx-test:system/bin/mm-vidc-omx-test \
+	$(PROPRIETARY_PATH)/bin/mmi:system/bin/mmi \
 	$(PROPRIETARY_PATH)/bin/msm_irqbalance:system/bin/msm_irqbalance \
 	$(PROPRIETARY_PATH)/bin/netmgrd:system/bin/netmgrd \
 	$(PROPRIETARY_PATH)/bin/otp_server:system/bin/otp_server \
@@ -38,8 +38,8 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_PATH)/bin/port-bridge:system/bin/port-bridge \
 	$(PROPRIETARY_PATH)/bin/prepare_param.sh:system/bin/prepare_param.sh \
 	$(PROPRIETARY_PATH)/bin/ptt_socket_app:system/bin/ptt_socket_app \
-	$(PROPRIETARY_PATH)/bin/qmiproxy:system/bin/qmiproxy \
 	$(PROPRIETARY_PATH)/bin/qmi_sfs_server:system/bin/qmi_sfs_server \
+	$(PROPRIETARY_PATH)/bin/qmiproxy:system/bin/qmiproxy \
 	$(PROPRIETARY_PATH)/bin/qmuxd:system/bin/qmuxd \
 	$(PROPRIETARY_PATH)/bin/qseecomd:system/bin/qseecomd \
 	$(PROPRIETARY_PATH)/bin/rfs_access:system/bin/rfs_access \
@@ -58,8 +58,12 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_PATH)/bin/usb_uicc_client:system/bin/usb_uicc_client \
 	$(PROPRIETARY_PATH)/bin/vm_bms:system/bin/vm_bms \
 	$(PROPRIETARY_PATH)/bin/wlandutservice:system/bin/wlandutservice \
-	$(PROPRIETARY_PATH)/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	$(PROPRIETARY_PATH)/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+	$(PROPRIETARY_PATH)/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+	$(PROPRIETARY_PATH)/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+	$(PROPRIETARY_PATH)/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+	$(PROPRIETARY_PATH)/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+	$(PROPRIETARY_PATH)/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
 	$(PROPRIETARY_PATH)/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
 	$(PROPRIETARY_PATH)/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
 	$(PROPRIETARY_PATH)/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
@@ -91,23 +95,50 @@ PRODUCT_COPY_FILES += \
 	$(PROPRIETARY_PATH)/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
 	$(PROPRIETARY_PATH)/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
 	$(PROPRIETARY_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+	$(PROPRIETARY_PATH)/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+	$(PROPRIETARY_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	$(PROPRIETARY_PATH)/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
+	$(PROPRIETARY_PATH)/lib/hw/power.qcom.so:system/lib/hw/power.qcom.so \
+	$(PROPRIETARY_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
 	$(PROPRIETARY_PATH)/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
 	$(PROPRIETARY_PATH)/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
+	$(PROPRIETARY_PATH)/lib/libMcClient.so:system/lib/libMcClient.so \
+	$(PROPRIETARY_PATH)/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
 	$(PROPRIETARY_PATH)/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
 	$(PROPRIETARY_PATH)/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
 	$(PROPRIETARY_PATH)/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
+	$(PROPRIETARY_PATH)/lib/libarccamera.so:system/lib/libarccamera.so \
+	$(PROPRIETARY_PATH)/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
+	$(PROPRIETARY_PATH)/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+	$(PROPRIETARY_PATH)/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
+	$(PROPRIETARY_PATH)/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+	$(PROPRIETARY_PATH)/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+	$(PROPRIETARY_PATH)/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
 	$(PROPRIETARY_PATH)/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
 	$(PROPRIETARY_PATH)/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
+	$(PROPRIETARY_PATH)/lib/libbt-iopdb_mod.so:system/lib/libbt-iopdb_mod.so \
 	$(PROPRIETARY_PATH)/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	$(PROPRIETARY_PATH)/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
+	$(PROPRIETARY_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	$(PROPRIETARY_PATH)/lib/libhdcp2.so:system/lib/libhdcp2.so \
+	$(PROPRIETARY_PATH)/lib/libkeyutils.so:system/lib/libkeyutils.so \
+	$(PROPRIETARY_PATH)/lib/libmaet.so:system/lib/libmaet.so \
+	$(PROPRIETARY_PATH)/lib/libminui.so:system/lib/libminui.so \
 	$(PROPRIETARY_PATH)/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
 	$(PROPRIETARY_PATH)/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
 	$(PROPRIETARY_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	$(PROPRIETARY_PATH)/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
 	$(PROPRIETARY_PATH)/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+	$(PROPRIETARY_PATH)/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+	$(PROPRIETARY_PATH)/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	$(PROPRIETARY_PATH)/lib/libril.so:system/lib/libril.so \
 	$(PROPRIETARY_PATH)/lib/librilutils.so:system/lib/librilutils.so \
+	$(PROPRIETARY_PATH)/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	$(PROPRIETARY_PATH)/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	$(PROPRIETARY_PATH)/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+	$(PROPRIETARY_PATH)/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+	$(PROPRIETARY_PATH)/lib/libtlc_comm.so:system/lib/libtlc_comm.so \
+	$(PROPRIETARY_PATH)/lib/libwcnftms.so:system/lib/libwcnftms.so \
 	$(PROPRIETARY_PATH)/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
 	$(PROPRIETARY_PATH)/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
 	$(PROPRIETARY_PATH)/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
