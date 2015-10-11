@@ -124,6 +124,7 @@ ___________________________________________________
         <MediaCodec name="OMX.qcom.video.encoder.avc" type="video/avc" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
+            <Quirk name="video-controller-check-enable" />
             <Quirk name="requires-loaded-to-idle-after-allocation" />
             <Limit name="size" min="96x64" max="1920x1088" />
             <Limit name="alignment" value="2x2" />
@@ -134,6 +135,7 @@ ___________________________________________________
         <MediaCodec name="OMX.qcom.video.encoder.mpeg4" type="video/mp4v-es" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
+            <Quirk name="video-controller-check-enable" />
             <Quirk name="requires-loaded-to-idle-after-allocation"/>
             <Limit name="size" min="96x64" max="1920x1088" />
             <Limit name="alignment" value="2x2" />
@@ -144,6 +146,7 @@ ___________________________________________________
         <MediaCodec name="OMX.qcom.video.encoder.h263" type="video/3gpp" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
+            <Quirk name="video-controller-check-enable" />
             <Quirk name="requires-loaded-to-idle-after-allocation" />
             <Limit name="size" min="96x64" max="720x576" />
             <Limit name="alignment" value="2x2" />
@@ -154,6 +157,7 @@ ___________________________________________________
         <MediaCodec name="OMX.qcom.video.encoder.vp8" type="video/x-vnd.on2.vp8" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
+            <Quirk name="video-controller-check-enable" />
             <Quirk name="requires-loaded-to-idle-after-allocation" />
             <Limit name="size" min="96x64" max="1920x1088" />
             <Limit name="alignment" value="2x2" />
@@ -285,22 +289,22 @@ ___________________________________________________
             </MediaCodec>
         <MediaCodec name="OMX.SEC.avc.sw.dec" type="video/avc" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
+            <Limit name="size" min="64x64" max="2048x2048" />
+        <Feature name="adaptive-playback" />
         </MediaCodec>
         <MediaCodec name="OMX.SEC.mpeg4.sw.dec" type="video/mp4v-es" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
             </MediaCodec>
         <MediaCodec name="OMX.SEC.hevc.sw.dec" type="video/hevc" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
+            <Limit name="size" min="64x64" max="2048x2048" />
+            <Feature name="adaptive-playback" />
         </MediaCodec>
         <MediaCodec name="OMX.SEC.vp8.dec" type="video/x-vnd.on2.vp8" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
+            <Limit name="size" min="64x64" max="2048x2048" />
+            <Feature name="adaptive-playback" />
         </MediaCodec>
-        <!--
-            Use Google's mpeg4 decoder for mpeg4 DP content which is not
-            supported by HW. A component can be used to support several
-            mimetypes, so non-DP mpeg4 usecases will not be affected by this.
-        -->
-        <MediaCodec name="OMX.google.mpeg4.decoder" type="video/mp4v-esdp" />
     </Decoders>
     <Include href="media_codecs_google_audio.xml" />
     <Include href="media_codecs_google_telephony.xml" />
