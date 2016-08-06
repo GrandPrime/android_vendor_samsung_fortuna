@@ -57,12 +57,6 @@
             <file>NotoSansHebrew-Bold.ttf</file>
         </fileset>
     </family>
-    <!-- Change NotoSansThai to SamsungThai, becuase font size issue -->
-    <family>
-        <fileset>
-            <file>SamsungThai.ttf</file>
-        </fileset>
-    </family>
     <family>
         <fileset>
             <file>NotoSansArmenian-Regular.ttf</file>
@@ -77,6 +71,11 @@
     </family>
     <family>
         <fileset>
+            <file>SamsungThai.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file variant="elegant">NotoSansDevanagari-Regular.ttf</file>
             <file variant="elegant">NotoSansDevanagari-Bold.ttf</file>
         </fileset>
@@ -87,13 +86,16 @@
             <file variant="compact">NotoSansDevanagariUI-Bold.ttf</file>
         </fileset>
     </family>
-    <!-- Change NotoSansGujarati to SamsungGujarathi, becuase font reshaping issue -->
     <family>
         <fileset>
             <file>SamsungGujarathi.ttf</file>
         </fileset>
     </family>
-    <!-- Change NotoSansGurmukhi to SamsungPunjabi, becuase font reshaping issue -->
+    <family>
+        <fileset>
+            <file>SamsungOriya.ttf</file>
+        </fileset>
+    </family>
     <family>
         <fileset>
             <file>SamsungPunjabi.ttf</file>
@@ -203,34 +205,7 @@
     </family>
     <family>
         <fileset>
-            <file>NotoSansThaana-Regular.ttf</file>
-            <file>NotoSansThaana-Bold.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansCham-Regular.ttf</file>
-            <file>NotoSansCham-Bold.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansBalinese-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansBatak-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansBuginese-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansBuhid-Regular.ttf</file>
+            <file>NotoSansCherokee-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -240,109 +215,7 @@
     </family>
     <family>
         <fileset>
-            <file>NotoSansCherokee-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansCoptic-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansGlagolitic-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansHanunoo-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansJavanese-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansKayahLi-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansLepcha-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansLimbu-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansMeeteiMayek-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansOlChiki-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansRejang-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansSaurashtra-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansSundanese-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansSylotiNagri-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansTagbanwa-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansTaiTham-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansTaiViet-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoSansTifinagh-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
             <file>NotoSansYi-Regular.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>Lohit-Odia.ttf</file>
-        </fileset>
-    </family>
-    <!-- Changing the priority of samsungkorean font to be higher than the Google Font, becuase font style -->
-    <family>
-        <fileset>
-            <file>SamsungKorean.ttf</file>
-            <file>SamsungKorean-Bold.ttf</file>
         </fileset>
     </family>
     <family>
@@ -360,10 +233,9 @@
             <file lang="ja">NotoSansJP-Regular.otf</file>
         </fileset>
     </family>
-    <!-- Changing the priority of samsungkorean font to be higher than the Google Font, becuase font style -->
     <family>
         <fileset>
-            <file>NotoSansKR-Regular.otf</file>
+            <file lang="ko">NotoSansKR-Regular.otf</file>
         </fileset>
     </family>
     <family>
@@ -371,7 +243,6 @@
             <file>NanumGothic.ttf</file>
         </fileset>
     </family>
-    <!-- Changing the priority of NotoColorEmoji font to be higher than the subset Font for some emoticon -->
     <family>
         <fileset>
             <file>NotoColorEmoji.ttf</file>
@@ -384,33 +255,24 @@
     </family>
     <family>
         <fileset>
+            <file>SamsungKorean.ttf</file>
+            <file>SamsungKorean-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>DroidSansFallback.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file>NotoSansMyanmarZawgyi-Regular.ttf</file>
-            <file>NotoSansMyanmarZawgyi-Bold.ttf</file>
+            <file lang="ja">MTLmr3m.ttf</file>
         </fileset>
     </family>
-    <!-- Added SamsungEmoji font for apps that don't support color emoji fonts like Snote -->
-    <family>
-        <fileset>
-            <file>SamsungEmoji.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>MTLmr3m.ttf</file>
-        </fileset>
-    </family>
-    <!--
-        Noto Sans Tai Le is intentionally kept last, to make sure it doesn't override
-        the East Asian punctuation for Chinese.
+    <!-- Note: complex scripts (i.e. those requiring shaping in Harfbuzz) have
+         a cumulative limit of 64k glyphs. Thus, if they are placed after the
+         large fonts such as DroidSansFallback, they are likely to render
+         incorrectly. Please use caution when putting fonts toward the end of
+         the list.
     -->
-    <family>
-        <fileset>
-            <file>NotoSansTaiLe-Regular.ttf</file>
-        </fileset>
-    </family>
 </familyset>

@@ -120,6 +120,7 @@ examples:
     <spnOverride numeric="29403" spn_display_rule="SPN_RULE_SHOW_PLMN" spn_override_only_on="29403" />
 
 <!-- LTN  [latin_protocol] -->
+    <spnOverride numeric="72400" fake_home_on="72400,72439"/>
     <spnOverride numeric="72402" fake_home_on="72402,72403,72404"/>
     <spnOverride numeric="72403" fake_home_on="72402,72403,72404"/>
     <spnOverride numeric="72404" fake_home_on="72402,72403,72404"/>
@@ -133,6 +134,7 @@ examples:
     <spnOverride numeric="72432" fake_home_on="72432,72433,72434"/>
     <spnOverride numeric="72433" fake_home_on="72432,72433,72434"/>
     <spnOverride numeric="72434" fake_home_on="72432,72433,72434"/>
+    <spnOverride numeric="72439" fake_home_on="72400,72439"/>
     <spnOverride numeric="73001" fake_home_on="73001,73010"/>
     <spnOverride numeric="73010" fake_home_on="73001,73010"/>
     <spnOverride numeric="71201" fake_home_on="71201,71202"/>
@@ -147,8 +149,7 @@ examples:
     <spnOverride numeric="73403" fake_home_on="73401,73402,73403"/>
     <spnOverride numeric="74002" fake_home_on="74000"/>
 
-    <spnOverride numeric="334090" fake_home_on="33403,334030,334050"/>
-    <spnOverride numeric="334050" fake_home_on="334090"/>
+    <spnOverride numeric="334090" fake_home_on="33403,334030"/>
     <spnOverride numeric="33402" fake_home_on="33402,334020,33420"/>
     <spnOverride numeric="334020" fake_home_on="33402,334020,33420"/>
     <spnOverride numeric="33420" fake_home_on="33402,334020,33420"/>

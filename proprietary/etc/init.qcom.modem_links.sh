@@ -163,7 +163,7 @@ case $linksNeeded in
             done
             ;;
          *)
-            log -p w -t PIL 8974 device but no tz_otp image found;;
+            log -p w -t PIL 8939 device but no tz_otp image found;;
       esac
 
       ;;

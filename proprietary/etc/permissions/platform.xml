@@ -53,11 +53,7 @@
     <permission name="android.permission.INTERNET" >
         <group gid="inet" />
     </permission>
-    
-    <permission name="android.permission.NET_RAW" >
-    <group gid="net_raw" />
-    </permission>
-    
+
     <permission name="android.permission.READ_LOGS" >
         <group gid="log" />
     </permission>
@@ -116,11 +112,6 @@
     <permission name="android.permission.LOOP_RADIO" >
         <group gid="loop_radio" />
     </permission>
-    
-    <!-- The group that releated with VPN -->
-    <permission name="com.sec.android.SAMSUNG_MODIFY_ROUTE" >
-        <group gid="net_admin" />
-    </permission>
 
     <!-- Hotword training apps sometimes need a GID to talk with low-level
          hardware; give them audio for now until full HAL support is added. -->
@@ -128,33 +119,6 @@
         <group gid="audio" />
     </permission>
 
-    <permission name="android.permission.ACCESS_FM_RADIO" >
-        <group gid="media" />
-    </permission>
-    
-    <!-- The group that releated with VPN -->
-    <permission name="com.sec.android.SAMSUNG_MODIFY_ROUTE" >
-        <group gid="net_admin" />
-    </permission>
-
-    <permission name="com.sec.android.SAMSUNG_TUNTAP" >
-        <group gid="vpn" />
-    </permission>
-
-    <permission name="com.sec.android.SAMSUNG_MODIFY_IPTABLES" >
-        <group gid="net_raw" />
-    </permission>
-
-   <!-- The group that releated with URL -->
-    <permission name="com.sec.android.SAMSUNG_GET_URL" >
-        <group gid="secnetfilter" />
-    </permission>
-
-	<!-- Group that can use gscaler -->
-    <permission name="com.sec.android.permission.USE_GSCALER" >
-        <group gid="graphics" />
-    </permission>
-	
     <!-- Except for SysScope, DO NOT USE this permission. -->
     <permission name="com.sec.android.app.sysscope.permission.ACCESS_SYSTEM_INFO_SYSSCOPE_ONLY" >
         <group gid="radio" />
